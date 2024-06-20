@@ -1,7 +1,7 @@
 import random
 
 def get_starting_number():
-    return random.randint(1,99)
+    return int(input("How many bottles do you want to start with?"))
 
 def sing(number):
     for i in range(number, 0, -1):
